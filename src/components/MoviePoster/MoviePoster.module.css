@@ -1,0 +1,26 @@
+.info {
+  padding: 1em;
+  background-color: indianred;
+  color: white;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+@media (min-width: 600px) {
+  .poster {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .poster img {
+    align-self: flex-start;
+    width: 35%;
+  }
+
+  .info>*+* {
+    margin-top: 1em;
+  }
+}
